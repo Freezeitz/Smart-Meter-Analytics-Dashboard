@@ -1,16 +1,96 @@
-# React + Vite
+# ⚡ Smart Meter Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Smart Meter Analytics Dashboard built using **React.js**, **Java Spring Boot**, and **PostgreSQL**. The application provides an intuitive interface for monitoring electricity consumption, analyzing energy usage trends, estimating monthly bills, and visualizing smart meter data through interactive charts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+- 🔐 Responsive Login Page
+- 📊 Interactive Dashboard
+- ⚡ KPI Cards for:
+  - Today's Usage
+  - Monthly Usage
+  - Estimated Bill
+  - Peak Demand
+- 📈 Monthly Energy Consumption Trends
+- 🥧 Consumption Category Analysis
+- 🔄 Energy Distribution Flow
+- 🚨 Real-Time Meter Alerts
+- 🌙 Dark & Light Theme Support
+- 🔗 REST API Integration
+- 💾 PostgreSQL Database Connectivity
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React.js
+- JavaScript (ES6)
+- Vite
+- Tailwind CSS
+- Recharts
+- Lucide React
+
+### Backend
+- Java
+- Spring Boot
+- RESTful APIs
+
+### Database
+- PostgreSQL
+
+---
+
+## 📂 Project Structure
+
+```
+Smart-Meter-Analytics-Dashboard/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── data/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
+│
+├── backend/
+│   ├── src/main/java/
+│   │   ├── controller/
+│   │   ├── service/
+│   │   ├── repository/
+│   │   ├── entity/
+│   │   └── model/
+│   ├── src/main/resources/
+│   └── pom.xml
+│
+└── README.md
+```
+
+---
+
+
+### Backend
+
+Open the backend project in **Spring Tool Suite (STS)** or your preferred IDE.
+
+Run the Spring Boot application.
+
+The backend server will start on:
+
+
+## 📈 Future Improvements
+
+- JWT Authentication
+- Role-Based Access Control
+- Live Smart Meter Data Integration
+- Export Reports (PDF/Excel)
+- Email Notifications
+- Predictive Energy Consumption using Machine Learning
+
+## 📄 License
+
+This project is intended for educational and internship purposes.
