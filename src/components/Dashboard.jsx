@@ -5,9 +5,9 @@ import FunnelChart from "./FunnelChart";
 import MeterAlerts from "./MeterAlerts";
 import MonthlyConsumption from "./MonthlyConsumption";
 
-export default function Dashboard() {
+export default function Dashboard({ onViewLogs }) {
   return (
-    <div className="p-6 space-y-6 max-w-[1600px] mx-auto">
+    <div className="p-6 space-y-6 max-w-[1600px] mx-auto relative z-10">
 
       {/* KPI Cards */}
       <KPICards />
@@ -29,7 +29,7 @@ export default function Dashboard() {
 
       {/* Alerts */}
       <div className="grid grid-cols-1 gap-5">
-        <MeterAlerts />
+        <MeterAlerts onViewLogs={onViewLogs} />
       </div>
 
     </div>

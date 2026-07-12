@@ -69,11 +69,11 @@ export const revenueData = [
 // ─────────────────────────────────────────────────────────────
 
 export const trafficSources = [
-  { name: "HVAC", value: 35, color: "#0ea5e9" },
-  { name: "Lighting", value: 20, color: "#8b5cf6" },
-  { name: "Kitchen Appliances", value: 18, color: "#10b981" },
-  { name: "Electronics", value: 15, color: "#f59e0b" },
-  { name: "Others", value: 12, color: "#f43f5e" },
+  { name: "HVAC", value: 35, color: "#a855f7" }, // Neon purple
+  { name: "Lighting", value: 20, color: "#06b6d4" }, // Neon Cyan
+  { name: "Kitchen Appliances", value: 18, color: "#ec4899" }, // Pink/Fuchsia
+  { name: "Electronics", value: 15, color: "#22c55e" }, // Green
+  { name: "Others", value: 12, color: "#f59e0b" }, // Amber
 ];
 
 // ─────────────────────────────────────────────────────────────
